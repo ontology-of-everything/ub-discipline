@@ -1,18 +1,12 @@
 # ub-discipline
 
-Robert C. Martin's [ub-mode](https://github.com/unclebob/ub-mode), split into atomic skills you combine per task. Rule text is quoted verbatim (English plugin) or translated line by line (`ub-discipline-cn`). Not an official release.
+Robert C. Martin's [ub-mode](https://github.com/unclebob/ub-mode), split into atomic skills you combine per task. The English plugin quotes the rules verbatim. `ub-discipline-cn` translates them line by line. This is not an official release.
 
-中文：安装 `ub-discipline-cn`；规则逐条直译自原文。
+中文版安装 `ub-discipline-cn`。
 
-## Source and license
+## Install
 
-Everything about origin and license lives here and in each plugin's `LICENSE`.
-
-- Content: [unclebob/ub-mode](https://github.com/unclebob/ub-mode), `SKILL.md`, blob `9ac940b`, MIT, Copyright (c) 2026 Robert C. Martin.
-- Shape: one explicit-only command per skill follows the `bro` skill in Lauren Tan's pstack. No pstack text is used.
-- Gate tools: [crapper](https://github.com/unclebob/crapper), [dryer](https://github.com/unclebob/dryer), [mutator](https://github.com/unclebob/mutator). Install separately; they support Clojure, Java, Go, TypeScript, Rust, and Python. Sections marked "local addition" only explain how to run them.
-
-Install the plugin, not single skills, so the LICENSE travels with the text.
+Install the plugin, not a single skill. The MIT `LICENSE` is at the plugin root and does not travel with one skill.
 
 ```bash
 claude plugin marketplace add ontology-of-everything/ub-discipline
@@ -37,7 +31,7 @@ claude plugin install ub-discipline-cn@ub-discipline
 | `ub-crap` / `ub-dry` / `ub-mutate` | Crapper / Dryer / Mutator |
 | `ub-ship` | Keep a Log, Commit and Push |
 
-Guard the Context Window and Worktree Cleanup appear only in `ub-mode`. Chinese skills add `-cn`.
+Guard the Context Window and Worktree Cleanup are only in `ub-mode`. Chinese skill names add `-cn`.
 
 ## Combine
 
@@ -49,3 +43,11 @@ Legacy upkeep      $ub-refactor $ub-tdd $ub-mutate
 Migration          $ub-execute $ub-state
 Wrap-up            $ub-ship
 ```
+
+## Source and license
+
+- Content: [unclebob/ub-mode](https://github.com/unclebob/ub-mode), `SKILL.md`, blob `9ac940b`, MIT, Copyright (c) 2026 Robert C. Martin.
+- Shape: one explicit-only command per skill, following the `bro` skill in Lauren Tan's pstack. No pstack text is used.
+- Gate tools: [crapper](https://github.com/unclebob/crapper), [dryer](https://github.com/unclebob/dryer), [mutator](https://github.com/unclebob/mutator). Install them separately. They support Clojure, Java, Go, TypeScript, Rust, and Python. Sections marked "local addition" only say how to run them.
+
+Each plugin's `LICENSE` repeats this notice.
