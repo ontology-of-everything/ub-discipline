@@ -1,0 +1,6 @@
+interface:
+  display_name: "UB · Foundation"
+  short_description: "Get the data shape right before writing logic"
+  default_prompt: "Use $ub-foundation to settle the data shape before writing the logic."
+policy:
+  allow_implicit_invocation: false

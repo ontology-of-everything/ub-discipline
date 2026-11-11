@@ -1,0 +1,6 @@
+interface:
+  display_name: "UB · Domain"
+  short_description: "Model the domain so illegal states are impossible"
+  default_prompt: "Use $ub-domain to model this domain, its boundaries, and its types."
+policy:
+  allow_implicit_invocation: false

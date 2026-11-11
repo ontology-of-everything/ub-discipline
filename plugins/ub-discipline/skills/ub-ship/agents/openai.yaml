@@ -1,0 +1,6 @@
+interface:
+  display_name: "UB · Ship"
+  short_description: "Log every action with its reason"
+  default_prompt: "Use $ub-ship to log this work and commit it in small ordered commits."
+policy:
+  allow_implicit_invocation: false

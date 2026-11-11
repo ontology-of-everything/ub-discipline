@@ -1,0 +1,6 @@
+interface:
+  display_name: "UB · Execute"
+  short_description: "Aim at a checkable end state"
+  default_prompt: "Use $ub-execute to plan and run this multi-step change in verifiable units."
+policy:
+  allow_implicit_invocation: false

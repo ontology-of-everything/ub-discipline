@@ -1,0 +1,6 @@
+interface:
+  display_name: "UB · Redesign"
+  short_description: "Do not bolt a new requirement onto the old design; design it as if it had been there from the start"
+  default_prompt: "Use $ub-redesign to fit this requirement into the design."
+policy:
+  allow_implicit_invocation: false

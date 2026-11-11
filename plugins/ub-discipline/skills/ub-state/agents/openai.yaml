@@ -1,0 +1,6 @@
+interface:
+  display_name: "UB · State"
+  short_description: "Make operations end in the same state after a rerun or crash"
+  default_prompt: "Use $ub-state to make this operation idempotent and its shared state safe."
+policy:
+  allow_implicit_invocation: false

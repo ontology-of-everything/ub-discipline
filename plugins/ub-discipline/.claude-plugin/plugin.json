@@ -1,0 +1,17 @@
+{
+  "name": "ub-discipline",
+  "version": "0.1.0",
+  "description": "Robert C. Martin's ub-mode, verbatim: one full skill plus 13 atomic skills you combine per task. Inspired by unclebob/ub-mode; the one-command shape follows the bro skill in Lauren Tan's pstack. Not an official release.",
+  "author": {
+    "name": "ub-discipline contributors"
+  },
+  "homepage": "https://github.com/unclebob/ub-mode",
+  "license": "MIT",
+  "keywords": [
+    "ub-mode",
+    "tdd",
+    "refactoring",
+    "quality-gates"
+  ],
+  "skills": "./skills/"
+}

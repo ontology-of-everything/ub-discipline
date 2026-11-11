@@ -1,0 +1,6 @@
+interface:
+  display_name: "UB · Refactor"
+  short_description: "Pin what the code does"
+  default_prompt: "Use $ub-refactor to restructure this code without changing its behavior."
+policy:
+  allow_implicit_invocation: false

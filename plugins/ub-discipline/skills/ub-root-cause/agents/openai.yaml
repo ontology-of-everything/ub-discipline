@@ -1,0 +1,6 @@
+interface:
+  display_name: "UB · Root Cause"
+  short_description: "Reproduce"
+  default_prompt: "Use $ub-root-cause to reproduce and fix the cause of this defect."
+policy:
+  allow_implicit_invocation: false

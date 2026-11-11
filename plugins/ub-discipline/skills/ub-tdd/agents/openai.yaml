@@ -1,0 +1,6 @@
+interface:
+  display_name: "UB · TDD"
+  short_description: "Write the failing test first"
+  default_prompt: "Use $ub-tdd to drive this change with a failing test first."
+policy:
+  allow_implicit_invocation: false

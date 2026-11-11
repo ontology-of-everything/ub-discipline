@@ -1,0 +1,6 @@
+interface:
+  display_name: "UB · 领域、边界与类型"
+  short_description: "为领域建模"
+  default_prompt: "使用 $ub-domain，为这个领域的模型、边界和类型做设计。"
+policy:
+  allow_implicit_invocation: false

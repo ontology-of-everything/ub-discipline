@@ -1,0 +1,6 @@
+interface:
+  display_name: "UB · Dryer"
+  short_description: "Run dryer and eliminate duplication that ranks 0.8 or above"
+  default_prompt: "Use $ub-dry to find and remove duplication in the changed code."
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,6 @@
+interface:
+  display_name: "UB Mode"
+  short_description: "Every ub-mode discipline at once, verbatim"
+  default_prompt: "Use $ub-mode to make this change, verify each step, and report the log."
+policy:
+  allow_implicit_invocation: false

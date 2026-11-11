@@ -1,0 +1,6 @@
+interface:
+  display_name: "UB · Lazy"
+  short_description: "Keep one decision in one place"
+  default_prompt: "Use $ub-lazy to make the smallest change that solves this."
+policy:
+  allow_implicit_invocation: false

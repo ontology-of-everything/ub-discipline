@@ -1,0 +1,21 @@
+{
+  "name": "ub-discipline",
+  "description": "ub-mode split into atomic skills.",
+  "owner": {
+    "name": "ub-discipline contributors"
+  },
+  "plugins": [
+    {
+      "name": "ub-discipline",
+      "source": "./plugins/ub-discipline",
+      "description": "English edition.",
+      "category": "engineering"
+    },
+    {
+      "name": "ub-discipline-cn",
+      "source": "./plugins/ub-discipline-cn",
+      "description": "简体中文版。",
+      "category": "engineering"
+    }
+  ]
+}
