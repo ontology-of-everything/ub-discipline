@@ -4,6 +4,16 @@ Robert C. Martin's [ub-mode](https://github.com/unclebob/ub-mode), split into at
 
 中文版安装 `ub-discipline-cn`。
 
+## Why it is split
+
+ub-mode applies its whole list to every change. The list holds rules that apply in different situations. A bug fix needs the smallest edit. A requirement that no longer fits the design needs a redesign, delivered in pieces. New code can start with a failing test. Untested code needs its current behavior pinned before the structure changes. A quality gate can cover the files you changed, or the whole tree.
+
+One discipline is one command. Combine the commands for the task: a new project, a feature change, a bug fix, legacy upkeep, or a migration. `ub-mode` stays for the full list.
+
+原文把整份清单用在每一次改动上。清单里的规则适用的情况不同：修缺陷要最小改动；需求已经装不进旧设计时，要按第一性原理重做并分块交付；新代码可以先写失败的测试；没有测试的代码要先钉住现有行为；质量门禁可以只覆盖这次改动的文件，也可以覆盖整棵目录树。
+
+一项纪律一个命令。按任务组合：新项目、功能改动、修缺陷、遗留代码维护、迁移。需要整份清单时用 `ub-mode`。
+
 ## Install
 
 Install the plugin, not a single skill. The MIT `LICENSE` is at the plugin root and does not travel with one skill.
