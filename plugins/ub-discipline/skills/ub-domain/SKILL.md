@@ -1,12 +1,12 @@
 ---
 name: ub-domain
-description: "Model the domain so illegal states are impossible, check data where it enters and trust it inside, and do not silence the compiler. Model the Domain, Boundary Discipline, Type System Discipline from Robert C. Martin's ub-mode, verbatim. Use only when explicitly invoked."
+description: "Model the Domain, Boundary Discipline, Type System Discipline. Quoted verbatim from Robert C. Martin's ub-mode. Explicit invocation only."
 disable-model-invocation: true
 license: MIT
 metadata:
   language: en
-  translation_of: ub-domain-cn
-  version: "0.1.0"
+  translation_of: ub-domain-hans
+  version: "1.0.0"
 ---
 
 # ub-domain

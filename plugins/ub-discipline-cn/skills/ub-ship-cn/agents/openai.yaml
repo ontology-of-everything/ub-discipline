@@ -1,6 +1,0 @@
-interface:
-  display_name: "UB · 日志与提交"
-  short_description: "记录每个行动及原因并在完成时汇报；经常提交"
-  default_prompt: "使用 $ub-ship，记录这项工作并以小而有序的提交收尾。"
-policy:
-  allow_implicit_invocation: false

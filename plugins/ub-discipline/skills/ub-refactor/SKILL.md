@@ -1,12 +1,12 @@
 ---
 name: ub-refactor
-description: "Pin what the code does, change the structure, and prove the behavior did not change. Refactoring from Robert C. Martin's ub-mode, verbatim. Use only when explicitly invoked."
+description: "Refactoring. Quoted verbatim from Robert C. Martin's ub-mode. Explicit invocation only."
 disable-model-invocation: true
 license: MIT
 metadata:
   language: en
-  translation_of: ub-refactor-cn
-  version: "0.1.0"
+  translation_of: ub-refactor-hans
+  version: "1.0.0"
 ---
 
 # ub-refactor

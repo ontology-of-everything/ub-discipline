@@ -1,6 +1,0 @@
-interface:
-  display_name: "UB · CRAP 检查"
-  short_description: "运行 crapper"
-  default_prompt: "使用 $ub-crap，为改动的函数打分并降低 CRAP 不低于 10 的函数。"
-policy:
-  allow_implicit_invocation: false

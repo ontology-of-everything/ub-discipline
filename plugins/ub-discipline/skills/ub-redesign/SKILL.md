@@ -1,12 +1,12 @@
 ---
 name: ub-redesign
-description: "Do not bolt a new requirement onto the old design; design it as if it had been there from the start, and deliver it in pieces. Redesign From First Principles from Robert C. Martin's ub-mode, verbatim. Use only when explicitly invoked."
+description: "Redesign From First Principles. Quoted verbatim from Robert C. Martin's ub-mode. Explicit invocation only."
 disable-model-invocation: true
 license: MIT
 metadata:
   language: en
-  translation_of: ub-redesign-cn
-  version: "0.1.0"
+  translation_of: ub-redesign-hans
+  version: "1.0.0"
 ---
 
 # ub-redesign

@@ -13,19 +13,26 @@ python3 - "$ROOT" <<'PY'
 import sys
 from pathlib import Path
 root = Path(sys.argv[1])
-up = (root/"upstream/SKILL.md").read_text().split("---", 2)[2].strip()
-full = (root/"plugins/ub-discipline/skills/ub-mode/SKILL.md").read_text().split("---", 2)[2].strip()
-assert up == full, "ub-mode body differs from upstream"
-lines = set(up.splitlines())
-for p in (root/"plugins/ub-discipline/skills").glob("ub-*/SKILL.md"):
-    rules = p.read_text().split("---", 2)[2].split("(local addition")[0]
-    for l in rules.splitlines():
-        if (l.startswith("* ") or l.startswith("##")) and not l.startswith("## Running") and not l.startswith("## Pushing"):
-            assert l in lines, f"{p.parent.name}: not verbatim: {l}"
+omit = {"Crapper", "Dryer", "Mutator"}
+skills = root / "plugins/ub-discipline/skills"
+up_lines = set((root/"upstream/SKILL.md").read_text().split("---", 2)[2].splitlines())
+full = (skills/"ub-mode/SKILL.md").read_text().split("---", 2)[2]
+for title in omit:
+    assert f"## {title}" not in full, f"ub-mode still contains {title}"
+for name in ("ub-crap", "ub-dry", "ub-mutate"):
+    assert not (skills/name).exists(), f"tool skill still present: {name}"
+for p in skills.glob("ub-*/SKILL.md"):
+    for line in p.read_text().split("---", 2)[2].splitlines():
+        if line.startswith("### ") or line.startswith("## "):
+            if line == "## Architecture":
+                continue
+            assert line in up_lines, f"{p.parent.name}: not verbatim: {line}"
+        elif line.startswith("* "):
+            assert line in up_lines, f"{p.parent.name}: not verbatim: {line}"
 print("OK: upstream fidelity")
 PY
 if command -v claude >/dev/null; then
-  for d in "$ROOT" "$ROOT/plugins/ub-discipline" "$ROOT/plugins/ub-discipline-cn"; do claude plugin validate "$d" >/dev/null; done
+  for d in "$ROOT" "$ROOT/plugins/ub-discipline" "$ROOT/plugins/ub-discipline-hans"; do claude plugin validate "$d" >/dev/null; done
   echo "OK: plugin manifests"
 fi
 echo "OK: ub-discipline checks passed"

@@ -1,0 +1,6 @@
+interface:
+  display_name: "UB · 重构"
+  short_description: "钉住代码现在的行为"
+  default_prompt: "使用 $ub-refactor-hans，在不改变行为的前提下重构这段代码。"
+policy:
+  allow_implicit_invocation: false

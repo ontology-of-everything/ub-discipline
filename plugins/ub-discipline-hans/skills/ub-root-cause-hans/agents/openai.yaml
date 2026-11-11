@@ -1,0 +1,6 @@
+interface:
+  display_name: "UB · 根因与前提"
+  short_description: "先复现"
+  default_prompt: "使用 $ub-root-cause-hans，复现并修复这个缺陷的根因。"
+policy:
+  allow_implicit_invocation: false

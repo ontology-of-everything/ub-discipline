@@ -1,6 +1,0 @@
-interface:
-  display_name: "UB · 变异测试"
-  short_description: "运行 mutator"
-  default_prompt: "使用 $ub-mutate，对我正在修改的文件做变异测试。"
-policy:
-  allow_implicit_invocation: false

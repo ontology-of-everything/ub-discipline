@@ -1,6 +1,0 @@
-interface:
-  display_name: "UB · 重复检查"
-  short_description: "运行 dryer"
-  default_prompt: "使用 $ub-dry，找出并消除改动代码中的重复。"
-policy:
-  allow_implicit_invocation: false

@@ -1,12 +1,12 @@
 ---
 name: ub-root-cause
-description: "Reproduce, fix the cause rather than hide the crash, and attack the shared premise when two fixes fail the same gate. Fix Root Causes, Attack the Premise from Robert C. Martin's ub-mode, verbatim. Use only when explicitly invoked."
+description: "Fix Root Causes, Attack the Premise. Quoted verbatim from Robert C. Martin's ub-mode. Explicit invocation only."
 disable-model-invocation: true
 license: MIT
 metadata:
   language: en
-  translation_of: ub-root-cause-cn
-  version: "0.1.0"
+  translation_of: ub-root-cause-hans
+  version: "1.0.0"
 ---
 
 # ub-root-cause

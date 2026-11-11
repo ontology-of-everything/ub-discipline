@@ -1,0 +1,6 @@
+interface:
+  display_name: "UB Mode · 工程纪律"
+  short_description: "一次启用 ub-mode 全部纪律"
+  default_prompt: "使用 $ub-mode-hans 完成这次改动，逐步验证并汇报日志。"
+policy:
+  allow_implicit_invocation: false

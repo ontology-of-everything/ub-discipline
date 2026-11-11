@@ -1,0 +1,6 @@
+interface:
+  display_name: "UB · TDD"
+  short_description: "先写会失败的测试"
+  default_prompt: "使用 $ub-tdd-hans，先写失败的测试来驱动这次改动。"
+policy:
+  allow_implicit_invocation: false

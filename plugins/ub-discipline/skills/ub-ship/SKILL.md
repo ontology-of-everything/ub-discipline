@@ -1,12 +1,12 @@
 ---
 name: ub-ship
-description: "Log every action with its reason, report the log on completion, and commit often in small ordered commits that say why, what, and how it was proved. Keep a Log, Commit and Push from Robert C. Martin's ub-mode, verbatim. Use only when explicitly invoked."
+description: "Keep a Log, Commit and Push. Quoted verbatim from Robert C. Martin's ub-mode. Explicit invocation only."
 disable-model-invocation: true
 license: MIT
 metadata:
   language: en
-  translation_of: ub-ship-cn
-  version: "0.1.0"
+  translation_of: ub-ship-hans
+  version: "1.0.0"
 ---
 
 # ub-ship
@@ -23,7 +23,3 @@ Apply these rules to the current task. They are quoted verbatim from "Practice" 
 * Commit often, in small ordered commits.
 * Each commit says why, what changed, and how you proved it.
 * Push to the main line at the end.
-
-## Pushing (local addition, not part of ub-mode)
-
-* Repository rules and the user's authorization decide whether, when, and where to push.

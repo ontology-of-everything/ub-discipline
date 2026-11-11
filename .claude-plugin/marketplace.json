@@ -12,8 +12,8 @@
       "category": "engineering"
     },
     {
-      "name": "ub-discipline-cn",
-      "source": "./plugins/ub-discipline-cn",
+      "name": "ub-discipline-hans",
+      "source": "./plugins/ub-discipline-hans",
       "description": "简体中文版。",
       "category": "engineering"
     }

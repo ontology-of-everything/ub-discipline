@@ -1,6 +1,0 @@
-interface:
-  display_name: "UB · Mutator"
-  short_description: "Run mutator to cover the uncovered"
-  default_prompt: "Use $ub-mutate to mutation-test the file I am changing."
-policy:
-  allow_implicit_invocation: false

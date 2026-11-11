@@ -1,6 +1,0 @@
-interface:
-  display_name: "UB · 基础思维"
-  short_description: "写逻辑之前先把数据形状弄对"
-  default_prompt: "使用 $ub-foundation，写逻辑之前先定数据形状。"
-policy:
-  allow_implicit_invocation: false

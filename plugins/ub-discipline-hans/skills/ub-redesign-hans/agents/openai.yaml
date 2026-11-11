@@ -1,0 +1,6 @@
+interface:
+  display_name: "UB · 第一性原理重设计"
+  short_description: "不把新需求硬接到旧设计上；按它从一开始就存在来设计"
+  default_prompt: "使用 $ub-redesign-hans，把这个需求融入设计。"
+policy:
+  allow_implicit_invocation: false

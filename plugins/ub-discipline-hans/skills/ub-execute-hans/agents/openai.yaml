@@ -1,0 +1,6 @@
+interface:
+  display_name: "UB · 结果、杠杆与小单元"
+  short_description: "瞄准可检验的最终状态"
+  default_prompt: "使用 $ub-execute-hans，把这次多步改动拆成可验证的单元来执行。"
+policy:
+  allow_implicit_invocation: false

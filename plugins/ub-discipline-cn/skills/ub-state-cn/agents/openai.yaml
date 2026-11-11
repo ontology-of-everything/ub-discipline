@@ -1,6 +1,0 @@
-interface:
-  display_name: "UB · 幂等与共享状态"
-  short_description: "让操作在重复运行或中途崩溃后都结束于同一状态；分离共享的可变状态"
-  default_prompt: "使用 $ub-state，让这个操作幂等、共享状态安全。"
-policy:
-  allow_implicit_invocation: false

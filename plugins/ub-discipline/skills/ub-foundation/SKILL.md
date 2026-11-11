@@ -1,12 +1,12 @@
 ---
 name: ub-foundation
-description: "Get the data shape right before writing logic, do first what helps every later phase, and do not share state a concurrent writer would touch. Foundational Thinking from Robert C. Martin's ub-mode, verbatim. Use only when explicitly invoked."
+description: "Foundational Thinking. Quoted verbatim from Robert C. Martin's ub-mode. Explicit invocation only."
 disable-model-invocation: true
 license: MIT
 metadata:
   language: en
-  translation_of: ub-foundation-cn
-  version: "0.1.0"
+  translation_of: ub-foundation-hans
+  version: "1.0.0"
 ---
 
 # ub-foundation

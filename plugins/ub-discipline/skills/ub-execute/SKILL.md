@@ -1,12 +1,12 @@
 ---
 name: ub-execute
-description: "Aim at a checkable end state, build the tool when the work is not obvious, and finish and check one small unit before the next. Outcome-Oriented Execution, Build the Lever, Sequence work into verifiable units from Robert C. Martin's ub-mode, verbatim. Use only when explicitly invoked."
+description: "Outcome-Oriented Execution, Build the Lever, Sequence work into verifiable units. Quoted verbatim from Robert C. Martin's ub-mode. Explicit invocation only."
 disable-model-invocation: true
 license: MIT
 metadata:
   language: en
-  translation_of: ub-execute-cn
-  version: "0.1.0"
+  translation_of: ub-execute-hans
+  version: "1.0.0"
 ---
 
 # ub-execute

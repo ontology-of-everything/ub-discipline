@@ -1,12 +1,12 @@
 ---
 name: ub-lazy
-description: "Keep one decision in one place, ship the smallest edit that solves the problem, and take complexity out before adding anything. Laziness Protocol, Subtract Before You Add from Robert C. Martin's ub-mode, verbatim. Use only when explicitly invoked."
+description: "Laziness Protocol, Subtract Before You Add. Quoted verbatim from Robert C. Martin's ub-mode. Explicit invocation only."
 disable-model-invocation: true
 license: MIT
 metadata:
   language: en
-  translation_of: ub-lazy-cn
-  version: "0.1.0"
+  translation_of: ub-lazy-hans
+  version: "1.0.0"
 ---
 
 # ub-lazy

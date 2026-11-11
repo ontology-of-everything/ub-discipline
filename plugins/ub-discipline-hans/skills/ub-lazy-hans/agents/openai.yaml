@@ -1,0 +1,6 @@
+interface:
+  display_name: "UB · 最小改动"
+  short_description: "一个决定只放在一处"
+  default_prompt: "使用 $ub-lazy-hans，用最小改动解决这个问题。"
+policy:
+  allow_implicit_invocation: false

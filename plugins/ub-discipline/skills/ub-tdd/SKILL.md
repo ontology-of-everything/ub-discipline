@@ -1,12 +1,12 @@
 ---
 name: ub-tdd
-description: "Write the failing test first, see it fail for the expected reason, make the smallest passing change, and test behavior, not implementation. TDD, Test Behavior, Not Implementation from Robert C. Martin's ub-mode, verbatim. Use only when explicitly invoked."
+description: "TDD, Test Behavior, Not Implementation. Quoted verbatim from Robert C. Martin's ub-mode. Explicit invocation only."
 disable-model-invocation: true
 license: MIT
 metadata:
   language: en
-  translation_of: ub-tdd-cn
-  version: "0.1.0"
+  translation_of: ub-tdd-hans
+  version: "1.0.0"
 ---
 
 # ub-tdd

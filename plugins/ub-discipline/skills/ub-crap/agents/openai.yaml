@@ -1,6 +1,0 @@
-interface:
-  display_name: "UB · Crapper"
-  short_description: "Run crapper and bring every function under CRAP 10 by splitting it"
-  default_prompt: "Use $ub-crap to score the changed functions and reduce any at CRAP 10 or above."
-policy:
-  allow_implicit_invocation: false

@@ -1,12 +1,12 @@
 ---
 name: ub-state
-description: "Make operations end in the same state after a rerun or crash, and separate shared mutable state or allow one enforced writer. Make Operations Idempotent, Separate Before Serializing Shared State from Robert C. Martin's ub-mode, verbatim. Use only when explicitly invoked."
+description: "Make Operations Idempotent, Separate Before Serializing Shared State. Quoted verbatim from Robert C. Martin's ub-mode. Explicit invocation only."
 disable-model-invocation: true
 license: MIT
 metadata:
   language: en
-  translation_of: ub-state-cn
-  version: "0.1.0"
+  translation_of: ub-state-hans
+  version: "1.0.0"
 ---
 
 # ub-state
